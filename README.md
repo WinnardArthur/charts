@@ -1,4 +1,4 @@
-# charts
+# Charts
 Different types of charts built with recharts. 
 
 # Getting Started with Create React App
