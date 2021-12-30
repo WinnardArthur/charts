@@ -1,0 +1,68 @@
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: auto;
+    min-height: 60vh;
+    border: 1px solid gray;
+    border-right: none;
+    border-top: 0;
+    padding: 1rem;
+    margin: 7rem 20% 0;
+    position: relative;
+}
+
+.array-bar {
+    width: 2rem;
+    display: inline-block;
+    margin: 0 .5rem;
+}
+
+.x-axisLabel {
+    position: absolute;
+    bottom: -2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.y-axisLabel {
+    position: absolute;
+    left: -6rem;
+    top: 50%;
+    transform: rotate(-90deg);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+button {
+    padding: 0.7rem 1rem;
+    border: none;
+    margin-left: 1rem;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    position: fixed;
+    top: 1rem;
+    right: 0;
+    cursor: pointer;
+}
+
+button.new {
+    background-color: tomato;
+    right: 10rem;
+}
+
+button.sort {
+    background-color: teal;
+    right: 2rem;
+}
+
+@keyframes sort {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
