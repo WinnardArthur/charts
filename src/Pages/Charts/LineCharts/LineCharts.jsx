@@ -1,5 +1,7 @@
 import React from 'react'
+import DashedLineChart from '../../../components/charts/LineCharts/DashedLineChart'
 import SimpleLineChart from '../../../components/charts/LineCharts/SimpleLineChart'
+import TinyLineChart from '../../../components/charts/LineCharts/TinyLineChart'
 
 const LineCharts = () => {
     return (
@@ -9,14 +11,14 @@ const LineCharts = () => {
                 <div className='item'>
                     <SimpleLineChart />
                 </div>
-
                 <div className="itemDivider"></div>
-
                 <div className='item'>
-                    <SimpleLineChart />
+                    <TinyLineChart />
                 </div>
-
                 <div className="itemDivider"></div>
+                <div className='item'>
+                    <DashedLineChart />
+                </div>
 
             </div>
         </div>
